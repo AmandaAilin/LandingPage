@@ -16,29 +16,28 @@
 </br>
 
 
-## Descrição do Projeto
-Meu timer é um dos meus primeiros projetos, é um "cronometro", a intenção é aplicar meus conhecimentos em CSS e Javascript. Tambem apliqueimeus conhecimentos em flexbox. 
+### Descrição do Projeto
+Landing Page feita no curso da Udemy mais especificamente com o profesor Otavio Miranda. A ideia principal foi praticar os conhecimentos aprendidos de HTML, CSS, Javascript.
 
 
+### Proximos pasos:
 
-## Status do Projeto
-<h4>    
- :construction:  Projeto em construção  :construction:
-</h4> Os proximos pasos a seguir serao adicionar acessibilidade, media query e clean code.
+- [ ] adicionar acessibilidade
+- [ ] media query
+- [ ] clean code
+</br>
+
+### Funcionalidades:
+- 
 
 
-## Funcionalidades e Demonstração da Aplicação
-- `Funcionalidade 1`: iniciar
-- `Funcionalidade 2`: pausar
-- `Funcionalidade 3`: zerar
+### Tecnologias utilizadas
 
-## Tecnologias utilizadas
-<div style="display: inline_block">
-<img align="center" alt="HTML logo" height="35" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-<img align="center" alt="CSS logo" height="35" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-<img align="center" alt="Javascript logo" height="35" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
-</div>
+  <img src="https://img.shields.io/badge/Html5-05122A?style=flat&logo=html5" alt="html5 Badge" height="25">&nbsp;
+  <img src="https://img.shields.io/badge/Css3-05122A?style=flat&logo=css3" alt="css3 Badge" height="25">&nbsp;
+  <img src="https://img.shields.io/badge/Javascript-05122A?style=flat&logo=javascript" alt="javascript Badge" height="25">&nbsp;
+</br>
 
-## Documentação 
-Flex-box: 
+### Documentação 
+- Flex-box: 
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/
