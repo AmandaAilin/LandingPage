@@ -10,7 +10,6 @@
 	<a href="#Descrição do Projeto">Descrição do Projeto</a> •
 	<a href="#funcionalidades">Funcionalidades</a> •
 	<a href="#tecnologias-utilizadas">Tecnologias-utilizadas</a> •
-	<a href="#Documentação">Documentação</a> • 
 </p>
 
 </br>
@@ -38,6 +37,3 @@ Landing Page feita no curso da Udemy mais especificamente com o profesor Otavio 
   <img src="https://img.shields.io/badge/Javascript-05122A?style=flat&logo=javascript" alt="javascript Badge" height="25">&nbsp;
 </br>
 
-## Documentação 
-- Flex-box: 
-https://css-tricks.com/snippets/css/a-guide-to-flexbox/
