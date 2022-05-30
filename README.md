@@ -19,7 +19,7 @@
 
 
 ## Descrição do Projeto
-Landing Page feita no curso da Udemy mais especificamente com o profesor Otavio Miranda. A ideia principal foi praticar os conhecimentos aprendidos de HTML, CSS, Javascript.
+Landing Page feita no curso da Udemy mais especificamente com o profesor Otavio Miranda. A ideia principal foi praticar os conhecimentos aprendidos de HTML, CSS.
 
 
 ### Proximos pasos:
