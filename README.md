@@ -26,14 +26,10 @@ Landing Page feita no curso da Udemy mais especificamente com o profesor Otavio 
 - [ ] clean code
 </br>
 
-## Funcionalidades:
-- 
-
 
 ## Tecnologias utilizadas
 
   <img src="https://img.shields.io/badge/Html5-05122A?style=flat&logo=html5" alt="html5 Badge" height="25">&nbsp;
   <img src="https://img.shields.io/badge/Css3-05122A?style=flat&logo=css3" alt="css3 Badge" height="25">&nbsp;
-  <img src="https://img.shields.io/badge/Javascript-05122A?style=flat&logo=javascript" alt="javascript Badge" height="25">&nbsp;
 </br>
 
