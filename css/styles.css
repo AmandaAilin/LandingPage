@@ -1,15 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
     --primary-color: #0A1128;
     --white-color: #ffffff;
     --light-gray-color: #EEEEEE;
     --secondery-color: crimson;
     --gap: 3rem;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
 
 html {
@@ -19,7 +19,7 @@ html {
 
 body {
     font-family: 'Open Sans', sans-serif;
-    font-size: 1rem;
+    font-size: 2rem;
     color: var(--primary-color);
     line-height: 1.5;
 }
@@ -56,12 +56,50 @@ h6 {
     font-size: 3.5rem;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
 p {
     margin-bottom: 3rem;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+
+    z-index: 100;
+}
+
+.navigation {
+    background: rgb(87, 4, 1);
+    padding: 1.4rem;
+}
+
+
+li {
+    list-style: none;
+    margin: 10px;
+    display: inline-block;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li a {
+    color: white;
+}
+
+li a:hover {
+    background: #CCC;
+    color: #000;
+
+}
+
+.trofeos {
+    width: 80rem;
+    display: flex;
+    justify-content: center;
 }
 
 .resposive-table {
@@ -83,7 +121,8 @@ table caption {
     margin-bottom: 1rem;
 }
 
-table td, table th {
+table td,
+table th {
     white-space: nowrap;
     padding: 1rem;
     text-align: left;
@@ -91,7 +130,7 @@ table td, table th {
 }
 
 .main-bg {
-    background-image: url('../img/main-bg.svg');
+    background: #DC0714;
     background-size: cover;
     background-position: center center;
     color: var(--white-color);
@@ -104,7 +143,7 @@ table td, table th {
 
 .main-content {
     max-width: 120rem;
-    margin: 0 auto;
+    margin: 0 150px;
     padding: 10rem var(--gap);
 }
 
@@ -113,7 +152,7 @@ table td, table th {
 }
 
 .menu-spacing {
-height: 65px;
+    height: 65px;
 }
 
 body .full-width {
@@ -163,7 +202,7 @@ body .full-width {
 
 .menu ul li a::after {
     content: '';
-    position:absolute;
+    position: absolute;
     bottom: 1rem;
     left: 50%;
     width: 0;
@@ -185,25 +224,27 @@ body .full-width {
     min-height: 100vh;
 }
 
-.intro-text-content, .intro-img {
+.intro-text-content {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
 }
 
-.intro-img img, .intro-img svg {
-    max-width: 100%;
-    min-height: auto;
+/*.intro-img*/
+
+.intro-img img {
+    width: 70%;
 }
 
 .top3-content {
     max-width: 64rem;
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
+    min-height: 100vh;
+    /*flex-wrap: nowrap;
     justify-content: center;
     min-height: 100vh;
-    text-align: center;
+    text-align: center;*/
 }
 
 .grid-one-content {
@@ -214,7 +255,7 @@ body .full-width {
 }
 
 .grid-main-heading {
-margin-bottom: 1rem;
+    margin-bottom: 1rem;
 }
 
 .grid-description {
@@ -253,15 +294,20 @@ margin-bottom: 1rem;
     overflow: hidden;
 }
 
+img {
+    width: 100%;
+}
+
 .gallery-img img {
     transition: all 300ms ease-in-out;
 }
 
 .gallery-img img:hover {
-    transform: translate(-3%, 3%)scale(1.2) rotate(5deg);
+    transform: translate(-3%, 3%) scale(1.2) rotate(5deg);
 }
 
-tfoot, table th {
+tfoot,
+table th {
     background: var(--light-gray-color);
 }
 
@@ -292,16 +338,18 @@ tfoot, table th {
     margin-bottom: 1rem;
 }
 
-.form-group input, .form-group textarea {
+.form-group input,
+.form-group textarea {
     border: none;
     background: var(--white-color);
     padding: 1.5rem 2rem;
     width: 100%;
     font-size: 3rem;
     outline: none;
-} 
+}
 
-.form-group input:focus, .form-group textarea:focus {
+.form-group input:focus,
+.form-group textarea:focus {
     box-shadow: 0 0 10px 2px var(--secondery-color);
 }
 
@@ -335,12 +383,12 @@ tfoot, table th {
 
 .heart {
     color: var(--secondery-color);
-    
+
 }
 
 .footer p {
     margin: 0;
-    padding: 3rem;
+    padding: 1.4rem;
 }
 
 .close-menu {
@@ -364,17 +412,22 @@ tfoot, table th {
 }
 
 @media (max-width: 800px) {
-    .intro-content, .grid {
+
+    .intro-content,
+    .grid {
         grid-template-columns: 1fr;
     }
+
     .gallery-img {
         width: 100%;
         max-width: 100%;
         max-height: 100%;
     }
+
     .gallery-img img {
         width: 100%;
     }
+
     .grid-one-content {
         display: block;
     }
@@ -385,7 +438,8 @@ tfoot, table th {
     text-align: center;
 }
 
-.menu-content, .menu-content ul {
+.menu-content,
+.menu-content ul {
     flex-direction: column;
     justify-content: center;
 }
@@ -416,7 +470,7 @@ tfoot, table th {
 }
 
 .close-menu:checked~.menu {
-display: block;
+    display: block;
 }
 
 .close-menu:checked~.close-menu-label::after {
