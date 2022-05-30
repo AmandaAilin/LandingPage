@@ -14,6 +14,9 @@
 
 </br>
 
+![LandingPage](https://user-images.githubusercontent.com/100203503/170999925-6b523a73-7f75-4dfc-ab3b-f16153e98c6f.PNG)
+
+
 
 ## Descrição do Projeto
 Landing Page feita no curso da Udemy mais especificamente com o profesor Otavio Miranda. A ideia principal foi praticar os conhecimentos aprendidos de HTML, CSS, Javascript.
